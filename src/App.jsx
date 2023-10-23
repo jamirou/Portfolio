@@ -6,17 +6,23 @@ import Works from "./components/Works"
 
 const Container = styled.div`
 height: 100vh;
-background-color: rebeccapurple;
+scroll-snap-type: y mandatory;
+scroll-behavior: smooth;
+overflow-y: auto;
+scrollbar-width: none;
+&::-webkit-scrollbar{
+  display:none
+}
 `
 
 function App() {
 
   return (
     <Container>
-      <Hero/>
-      <Who/>
-      <Works/> 
-      <Contact/>
+      <Hero />
+      <Who />
+      <Works />
+      <Contact />
     </Container>
   )
 }
