@@ -11,32 +11,32 @@ const Portfolio = () => {
     {
       id: 1,
       src: arrayDestruct,
-      codeLink: "google.com",
+      codeLink: "https://github.com/jamirou/Personal_Schedule",
     },
     {
       id: 2,
       src: reactParallax,
-      codeLink: "google.com",
+      codeLink: "https://github.com/jamirou/RetrofitGame",
     },
     {
       id: 3,
       src: navbar,
-      codeLink: "google.com",
+      codeLink: "https://github.com/jamirou/WikiHero",
     },
     {
       id: 4,
       src: reactSmooth,
-      codeLink: "google.com",
+      codeLink: "https://github.com/jamirou/CronosApp",
     },
     {
       id: 5,
       src: installNode,
-      codeLink: "google.com",
+      codeLink: "https://github.com/jamirou/TranslatorApp",
     },
     {
       id: 6,
       src: reactWeather,
-      codeLink: "google.com",
+      codeLink: "https://github.com/jamirou/InstagramApp",
     },
   ];
 
