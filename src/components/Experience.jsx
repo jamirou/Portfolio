@@ -1,44 +1,44 @@
 import React from "react";
 
 import kotlin from "../assets/kotlin.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
-import reactImage from "../assets/react.png";
+import jetpack from "../assets/jetpack.png";
+import java from "../assets/java.png";
+import firebase from "../assets/firebase.png";
 import nextjs from "../assets/nextjs.png";
 import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
+import sqlite from "../assets/sqlite.png";
 
 const Experience = () => {
   const techs = [
     {
       id: 1,
       src: kotlin,
-      title: "kotlin",
+      title: "Kotlin",
       style: "shadow-purple-500",
     },
     {
       id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
+      src: jetpack,
+      title: "Jetpack compose",
+      style: "shadow-cyan-500",
     },
     {
       id: 3,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
+      src: java,
+      title: "Java",
+      style: "shadow-red-500",
     },
     {
       id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
+      src: firebase,
+      title: "Firebase",
+      style: "shadow-yellow-600",
     },
     {
       id: 5,
-      src: tailwind,
-      title: "Tailwind",
+      src: sqlite,
+      title: "SQLite",
       style: "shadow-sky-400",
     },
     {
