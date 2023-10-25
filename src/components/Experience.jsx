@@ -8,7 +8,6 @@ import git from "../assets/git.png";
 import css from "../assets/css.png";
 import github from "../assets/github.png";
 import sqlite from "../assets/sqlite.png";
-import javascript from "../assets/javascript.png"
 
 const Experience = () => {
   const techs = [
@@ -55,13 +54,7 @@ const Experience = () => {
       style: "shadow-white",
     },
     {
-        id: 8,
-        src: javascript,
-        title: "Javascript",
-        style: "shadow-yellow-200",
-      },
-    {
-      id: 9,
+      id: 8,
       src: github,
       title: "GitHub",
       style: "shadow-gray-200",
