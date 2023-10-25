@@ -11,12 +11,9 @@ import tailwind from "../assets/tailwind.png";
 
 
 const Experience = () => {
-    const techs = [
-      {
-        id: 1,
-        src: html,
-        title: "HTML",
-        style: "shadow-orange-500",
-      },
+  return (
+    <div>Experience</div>
+  )
+}
 
 export default Experience
