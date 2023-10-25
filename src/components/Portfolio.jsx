@@ -11,26 +11,32 @@ const Portfolio = () => {
     {
       id: 1,
       src: arrayDestruct,
+      codeLink: "google.com",
     },
     {
       id: 2,
       src: reactParallax,
+      codeLink: "google.com",
     },
     {
       id: 3,
       src: navbar,
+      codeLink: "google.com",
     },
     {
       id: 4,
       src: reactSmooth,
+      codeLink: "google.com",
     },
     {
       id: 5,
       src: installNode,
+      codeLink: "google.com",
     },
     {
       id: 6,
       src: reactWeather,
+      codeLink: "google.com",
     },
   ];
 
@@ -48,7 +54,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, codeLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -59,9 +65,13 @@ const Portfolio = () => {
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href={codeLink}
+                  target="_blank"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}
@@ -71,4 +81,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;   
+export default Portfolio;

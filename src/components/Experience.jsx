@@ -4,10 +4,11 @@ import kotlin from "../assets/kotlin.png";
 import jetpack from "../assets/jetpack.png";
 import java from "../assets/java.png";
 import firebase from "../assets/firebase.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import html from "../assets/html.png";
+import css from "../assets/css.png";
 import github from "../assets/github.png";
 import sqlite from "../assets/sqlite.png";
+import javascript from "../assets/javascript.png"
 
 const Experience = () => {
   const techs = [
@@ -27,13 +28,13 @@ const Experience = () => {
       id: 3,
       src: java,
       title: "Java",
-      style: "shadow-red-500",
+      style: "shadow-blue-300",
     },
     {
       id: 4,
       src: firebase,
       title: "Firebase",
-      style: "shadow-yellow-600",
+      style: "shadow-yellow-400",
     },
     {
       id: 5,
@@ -43,22 +44,29 @@ const Experience = () => {
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      src: html,
+      title: "HTML",
+      style: "shadow-red-600",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: css,
+      title: "CSS",
+      style: "shadow-white",
     },
     {
-      id: 8,
+        id: 8,
+        src: javascript,
+        title: "Javascript",
+        style: "shadow-yellow-200",
+      },
+    {
+      id: 9,
       src: github,
       title: "GitHub",
-      style: "shadow-gray-400",
+      style: "shadow-gray-200",
     },
+
   ];
 
   return (
