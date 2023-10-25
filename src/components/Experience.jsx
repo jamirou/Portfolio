@@ -1,6 +1,6 @@
 import React from "react";
 
-import html from "../assets/html.png";
+import kotlin from "../assets/kotlin.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
@@ -13,9 +13,9 @@ const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      src: kotlin,
+      title: "kotlin",
+      style: "shadow-purple-500",
     },
     {
       id: 2,
