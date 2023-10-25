@@ -4,7 +4,7 @@ import kotlin from "../assets/kotlin.png";
 import jetpack from "../assets/jetpack.png";
 import java from "../assets/java.png";
 import firebase from "../assets/firebase.png";
-import html from "../assets/html.png";
+import git from "../assets/git.png";
 import css from "../assets/css.png";
 import github from "../assets/github.png";
 import sqlite from "../assets/sqlite.png";
@@ -44,8 +44,8 @@ const Experience = () => {
     },
     {
       id: 6,
-      src: html,
-      title: "HTML",
+      src: git,
+      title: "Git",
       style: "shadow-red-600",
     },
     {
