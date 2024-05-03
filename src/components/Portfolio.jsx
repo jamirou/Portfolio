@@ -26,7 +26,7 @@ const Portfolio = () => {
     {
       id: 4,
       src: reactSmooth,
-      codeLink: "https://github.com/jamirou/myline",
+      codeLink: "https://github.com/jamirou/GuruDealer",
     },
     {
       id: 5,
