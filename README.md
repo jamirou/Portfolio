@@ -1,3 +1,10 @@
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![React](https://cdn.jsdelivr.net/npm/@iconify-icons/simple-icons/react.svg)](https://reactjs.org/)
+[![Tailwind CSS](https://cdn.jsdelivr.net/npm/@iconify-icons/simple-icons/tailwindcss.svg)](https://tailwindcss.com/)
+[![JavaScript](https://cdn.jsdelivr.net/npm/@iconify-icons/simple-icons/javascript.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![HTML](https://cdn.jsdelivr.net/npm/@iconify-icons/simple-icons/html5.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://cdn.jsdelivr.net/npm/@iconify-icons/simple-icons/css3.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
 # Portfolio!
 
 Hello! I'm Jamiro, and this is my portfolio developed with React. Here you can find a sample of my projects and technical skills.
@@ -6,19 +13,18 @@ Hello! I'm Jamiro, and this is my portfolio developed with React. Here you can f
 
 1. **Clone the Repository:**
 
-```git clone https://github.com/your-username/your-project.git```
+`git clone https://github.com/your-username/your-project.git`
 
 2. **Install Dependencies:**
 
-```cd your-project
-npm install```
+`cd your-project npm install`
 
 3. **Start the Application:**
 
-```npm start```
+`npm start`
 
 4. **Ready!**
-Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to see the application in action.
+   Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to see the application in action.
 
 ## Available Scripts
 
