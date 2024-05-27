@@ -1,9 +1,9 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![React](https://cdn.jsdelivr.net/npm/@iconify-icons/simple-icons/react.svg)](https://reactjs.org/)
-[![Tailwind CSS](https://cdn.jsdelivr.net/npm/@iconify-icons/simple-icons/tailwindcss.svg)](https://tailwindcss.com/)
-[![JavaScript](https://cdn.jsdelivr.net/npm/@iconify-icons/simple-icons/javascript.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![HTML](https://cdn.jsdelivr.net/npm/@iconify-icons/simple-icons/html5.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS](https://cdn.jsdelivr.net/npm/@iconify-icons/simple-icons/css3.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![HTML](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 # Portfolio!
 
