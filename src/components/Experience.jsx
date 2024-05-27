@@ -8,6 +8,10 @@ import git from "../assets/git.png";
 import css from "../assets/css.png";
 import github from "../assets/github.png";
 import sqlite from "../assets/sqlite.png";
+import flutter from "../assets/flutter.png";
+import dart from "../assets/dart.png";
+
+
 
 const Experience = () => {
   const techs = [
@@ -48,11 +52,24 @@ const Experience = () => {
       style: "shadow-red-600",
     },
     {
+      id: 9,
+      src: dart,
+      title: "dart",
+      style: "shadow-cyan-500",
+    },
+    {
       id: 7,
       src: css,
       title: "CSS",
-      style: "shadow-white",
+      style: "shadow-purple-300",
     },
+    {
+      id: 10,
+      src: flutter,
+      title: "Flutter",
+      style: "shadow-sky-400",
+    },
+
     {
       id: 8,
       src: github,
