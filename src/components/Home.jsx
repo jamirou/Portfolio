@@ -15,7 +15,7 @@ const Home = () => {
                         Hi, I'm Jamiro.
                     </h1>
                     <p className="text-gray-500 py-4 max-w-md">
-                        I am a passionate technology lover and dedicated to mobile android development.
+                        I am a passionate technology lover and dedicated to mobile development.
                         My passion for creating innovative solutions in the world of applications constantly drives me to learn and improve myself.
                     </p>
 
