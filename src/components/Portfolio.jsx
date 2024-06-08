@@ -38,7 +38,6 @@ const Portfolio = () => {
       src: reactWeather,
       codeLink: "https://github.com/jamirou/InstagramApp",
     },
-    
   ];
 
   return (
@@ -54,7 +53,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 sm:px-0">
           {portfolios.map(({ id, src, codeLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img

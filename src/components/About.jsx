@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full h-full bg-gradient-to-b from-gray-800 to-black text-white py-8"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -12,7 +12,7 @@ const About = () => {
             About
           </p>
         </div>
-        <p className="text-xl mt-20">
+        <p className="text-xl mt-8">
           Hello again! I am Jamiro, a mobile developer with a broad range of
           knowledge and an insatiable desire to learn more every day. I am
           passionate about creating applications that not only work well but

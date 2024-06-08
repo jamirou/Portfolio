@@ -18,20 +18,6 @@ const Home = () => {
                         I am a passionate technology lover and dedicated to mobile development.
                         My passion for creating innovative solutions in the world of applications constantly drives me to learn and improve myself.
                     </p>
-
-                    <div>
-                        <Link
-                            to="portfolio"
-                            smooth
-                            duration={500}
-                            className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-800 to-purple-900 cursor-pointer"
-                        >
-                            Portfolio
-                            <span className="group-hover:rotate-90 duration-300">
-                                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
-                            </span>
-                        </Link>
-                    </div>
                 </div>
 
                 <div>
@@ -46,4 +32,4 @@ const Home = () => {
     );
 };
 
-export default Home;    
+export default Home;
