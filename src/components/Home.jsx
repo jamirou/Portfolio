@@ -1,7 +1,5 @@
 import React from "react";
 import HeroImage from "../assets/heroImage.png";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { Link } from "react-scroll";
 
 const Home = () => {
     return (
@@ -15,8 +13,7 @@ const Home = () => {
                         Hi, I'm Jamiro.
                     </h1>
                     <p className="text-gray-500 py-4 max-w-md">
-                        I am a passionate technology lover and dedicated to mobile development.
-                        My passion for creating innovative solutions in the world of applications constantly drives me to learn and improve myself.
+                    Crafting cool mobile apps with a passion for innovation.
                     </p>
                 </div>
 
