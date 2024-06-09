@@ -1,4 +1,5 @@
 import React from "react";
+import HeroImage from "../assets/heroImage.png";
 
 const About = () => {
   return (
@@ -35,6 +36,14 @@ const About = () => {
           If you're looking for someone with a solid technical foundation and a
           proactive attitude, let's talk!
         </p>
+
+        <div className="flex justify-center mt-8">
+          <img
+            src={HeroImage}
+            alt="my profile"
+            className="w-48 h-48 object-cover rounded-full md:w-64 md:h-64"
+          />
+        </div>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import { Typewriter } from 'react-simple-typewriter';
 import HeroImage from "../assets/heroImage.png";
 
 const Home = () => {
@@ -9,20 +10,21 @@ const Home = () => {
         >
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
                 <div className="flex flex-col justify-center h-full">
-                    <h1 className="text-4xl sm:text-7xl font-bold text-white">
-                        Hi, I'm Jamiro.
-                    </h1>
+                    <div className="text-4xl sm:text-7xl font-bold text-white"
+                         style={{ minHeight: '100px', display: 'flex', alignItems: 'center' }}>
+                        <Typewriter
+                            words={["Hi, I'm Jamiro.", "A mobile developer."]}
+                            loop={Infinity}
+                            cursor
+                            cursorStyle='_'
+                            typeSpeed={120}
+                            deleteSpeed={50}
+                            delaySpeed={1000}
+                        />
+                    </div>
                     <p className="text-gray-500 py-4 max-w-md">
-                    Crafting cool mobile apps with a passion for innovation.
+                        Crafting cool mobile apps with a passion for innovation.
                     </p>
-                </div>
-
-                <div>
-                    <img
-                        src={HeroImage}
-                        alt="my profile"
-                        className="rounded-2x1 mx-auto w-2/3 md:w-half-height"
-                    />
                 </div>
             </div>
         </div>
