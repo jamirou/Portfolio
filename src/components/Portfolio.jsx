@@ -9,6 +9,11 @@ import reactWeather from "../assets/portfolio/reactWeather.jpg";
 const Portfolio = () => {
   const portfolios = [
     {
+      id: 4,
+      src: reactSmooth,
+      codeLink: "https://github.com/jamirou/GuruDealer",
+    },
+    {
       id: 1,
       src: arrayDestruct,
       codeLink: "https://github.com/jamirou/Personal_Schedule",
@@ -23,11 +28,7 @@ const Portfolio = () => {
       src: navbar,
       codeLink: "https://github.com/jamirou/WikiHero",
     },
-    {
-      id: 4,
-      src: reactSmooth,
-      codeLink: "https://github.com/jamirou/GuruDealer",
-    },
+   
     {
       id: 5,
       src: installNode,
@@ -52,7 +53,7 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6">Check out some of my last work right here</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 sm:px-0">
