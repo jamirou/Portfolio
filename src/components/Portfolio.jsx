@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
@@ -40,6 +40,8 @@ const Portfolio = () => {
     },
   ];
 
+  const [hoveredId, setHoveredId] = useState(null);
+
   return (
     <div
       name="portfolio"
@@ -67,8 +69,10 @@ const Portfolio = () => {
                   target="_blank"
                   rel="noreferrer"
                   className="w-full text-center px-6 py-3 m-4 duration-200 hover:scale-105 hover:bg-gray-700 hover:text-white"
+                  onMouseEnter={() => setHoveredId(id)}
+                  onMouseLeave={() => setHoveredId(null)}
                 >
-                  Code
+                  {hoveredId === id ? "Github" : "Code"}
                 </a>
               </div>
             </div>
