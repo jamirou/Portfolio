@@ -1,6 +1,5 @@
 import React from "react";
 import { Typewriter } from 'react-simple-typewriter';
-import HeroImage from "../assets/heroImage.png";
 
 const Home = () => {
     return (
@@ -8,8 +7,8 @@ const Home = () => {
             name="home"
             className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
         >
-            <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-                <div className="flex flex-col justify-center h-full">
+            <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4">
+                <div className="flex flex-col justify-center items-center h-full">
                     <div className="text-4xl sm:text-7xl font-bold text-white"
                          style={{ minHeight: '100px', display: 'flex', alignItems: 'center' }}>
                         <Typewriter
@@ -22,9 +21,11 @@ const Home = () => {
                             delaySpeed={1000}
                         />
                     </div>
-                    <p className="text-gray-500 py-4 max-w-md">
-                        Crafting cool mobile apps with a passion for innovation.
-                    </p>
+                    <div className="mt-4 text-center">
+                        <p className="text-gray-500 py-4 max-w-md">
+                            Crafting cool mobile apps with a passion for innovation.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
