@@ -5,17 +5,20 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
+import Footer from "./components/Footer"; 
+
 
 function App() {
   return (
     <div>
-      <Navbar/>
-      <Home/>
-      <About/>
-      <Portfolio/>
-      <Experience/>
-      <Contact/>
-      <SocialLinks/>
+      <Navbar />
+      <Home />
+      <About />
+      <Portfolio />
+      <Experience />
+      <Contact />
+      <SocialLinks />
+      <Footer /> 
     </div>
   );
 }
