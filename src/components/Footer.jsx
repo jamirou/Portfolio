@@ -1,9 +1,15 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { Typewriter } from "react-simple-typewriter";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faGithub,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   const [copyMessage, setCopyMessage] = useState("");
+  const currentYear = new Date().getFullYear(); 
 
   const handleEmailClick = () => {
     const email = "devjamiro@gmail.com";
@@ -11,7 +17,7 @@ const Footer = () => {
       setCopyMessage("¡Copied!");
       setTimeout(() => {
         setCopyMessage("");
-      }, 2000); 
+      }, 2000);
     });
   };
 
@@ -19,9 +25,22 @@ const Footer = () => {
     <footer className="w-full bg-black">
       <div className="flex flex-col items-center py-4">
         <div className="text-center">
-          <p className="text-lg text-white">Get in Touch</p>
-          <p 
-            className="mt-2 text-gray-400 cursor-pointer" 
+          <p className="text-lg text-white">
+            <Typewriter
+              words={[
+                "Get in Touch",
+                `© ${currentYear} Jamiro Manriquez.`,
+              ]}
+              loop={Infinity}
+              cursor
+              cursorStyle="_"
+              typeSpeed={120}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
+          </p>
+          <p
+            className="mt-2 text-gray-400 cursor-pointer"
             onClick={handleEmailClick}
           >
             devjamiro@gmail.com
@@ -29,17 +48,37 @@ const Footer = () => {
           {copyMessage && <p className="text-green-500 mt-2">{copyMessage}</p>}
         </div>
         <div className="flex mt-4 space-x-4">
-          <a href="https://www.linkedin.com/in/jamiro-manriquez-832aaa204/" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faLinkedin} className="text-white text-2xl hover:text-gray-400" />
+          <a
+            href="https://www.linkedin.com/in/jamiro-manriquez-832aaa204/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              className="text-white text-2xl hover:text-gray-400"
+            />
           </a>
-          <a href="https://github.com/jamirou" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faGithub} className="text-white text-2xl hover:text-gray-400" />
+          <a
+            href="https://github.com/jamirou"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faGithub}
+              className="text-white text-2xl hover:text-gray-400"
+            />
           </a>
-          <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faTwitter} className="text-white text-2xl hover:text-gray-400" />
+          <a
+            href="https://twitter.com/yourprofile"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faTwitter}
+              className="text-white text-2xl hover:text-gray-400"
+            />
           </a>
         </div>
-        <p className="mt-4 text-gray-500">&copy; {new Date().getFullYear()} Jamiro Manriquez. All Rights Reserved.</p>
       </div>
     </footer>
   );
