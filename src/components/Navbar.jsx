@@ -31,7 +31,9 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <div>
-        <h1 className="text-2xl font-code ml-2">jamiro.dev</h1>
+        <h1 className="text-2xl font-code ml-2 hover:text-gray-400 transition duration-300 ease-in-out transform hover:scale-110">
+          Jamiro.dev
+        </h1>
       </div>
 
       <ul className="hidden md:flex"> 
