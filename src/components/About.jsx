@@ -1,5 +1,6 @@
 import React from "react";
 import HeroImage from "../assets/heroImage.png";
+import { Link } from "react-scroll";
 
 const About = () => {
   return (
@@ -30,11 +31,9 @@ const About = () => {
           explore new tools and programming languages. In addition to my daily
           work, I love contributing to the world of open source. I'm a big
           believer in collaboration and knowledge sharing, so if you have any
-          exciting ideas or want to show me your favorite repository, feel free
-          to do so in the contact section. Make sure to include all the details
-          in the form! I am always open to new opportunities and collaborations.
+          exciting ideas or want to show me. I am always open to new opportunities and collaborations.
           If you're looking for someone with a solid technical foundation and a
-          proactive attitude, let's talk!
+          proactive attitude, <Link to="contact" smooth duration={500} className="text-green-500 underline cursor-pointer">let's talk!</Link>
         </p>
 
         <div className="flex justify-center mt-8">
