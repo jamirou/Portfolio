@@ -1,5 +1,6 @@
 import React from "react";
 import { Typewriter } from 'react-simple-typewriter';
+import { Fade } from 'react-awesome-reveal';
 
 const Home = () => {
     return (
@@ -9,22 +10,26 @@ const Home = () => {
         >
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4">
                 <div className="flex flex-col justify-center items-center h-full">
-                    <div className="text-4xl sm:text-7xl font-bold text-white"
-                         style={{ minHeight: '100px', display: 'flex', alignItems: 'center' }}>
-                        <Typewriter
-                            words={["Hi, I'm Jamiro.", "A mobile developer."]}
-                            loop={Infinity}
-                            cursor
-                            cursorStyle='_'
-                            typeSpeed={120}
-                            deleteSpeed={50}
-                            delaySpeed={1000}
-                        />
-                    </div>
+                    <Fade direction="down" duration={2000} triggerOnce>
+                        <div className="text-4xl sm:text-7xl font-bold text-white"
+                             style={{ minHeight: '100px', display: 'flex', alignItems: 'center' }}>
+                            <Typewriter
+                                words={["Hi, I'm Jamiro.", "A mobile developer."]}
+                                loop={Infinity}
+                                cursor
+                                cursorStyle='_'
+                                typeSpeed={120}
+                                deleteSpeed={50}
+                                delaySpeed={1000}
+                            />
+                        </div>
+                    </Fade>
                     <div className="mt-4 text-center">
-                        <p className="text-gray-500 py-4 max-w-md">
-                            Crafting cool mobile apps with a passion for innovation.
-                        </p>
+                        <Fade direction="up" duration={2000} triggerOnce>
+                            <p className="text-gray-500 py-4 max-w-md">
+                                Crafting cool mobile apps with a passion for innovation.
+                            </p>
+                        </Fade>
                     </div>
                 </div>
             </div>
