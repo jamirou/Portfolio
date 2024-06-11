@@ -5,6 +5,7 @@ import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import { Fade } from 'react-awesome-reveal';
 
 const Portfolio = () => {
   const portfolios = [
@@ -28,7 +29,6 @@ const Portfolio = () => {
       src: navbar,
       codeLink: "https://github.com/jamirou/WikiHero",
     },
-   
     {
       id: 5,
       src: installNode,
@@ -49,34 +49,38 @@ const Portfolio = () => {
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Portfolio
-          </p>
-          <p className="py-6">Check out some of my last work right here</p>
-        </div>
+        <Fade direction="down" duration={2000} triggerOnce>
+          <div className="pb-8">
+            <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+              Portfolio
+            </p>
+            <p className="py-6">Check out some of my last work right here</p>
+          </div>
+        </Fade>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 sm:px-0">
           {portfolios.map(({ id, src, codeLink }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105"
-              />
-              <div className="flex items-center justify-center">
-                <a
-                  href={codeLink}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="w-full text-center px-6 py-3 m-4 duration-200 hover:scale-105 hover:bg-gray-700 hover:text-white"
-                  onMouseEnter={() => setHoveredId(id)}
-                  onMouseLeave={() => setHoveredId(null)}
-                >
-                  {hoveredId === id ? "Github" : "Code"}
-                </a>
+            <Fade key={id} direction="up" duration={2000} triggerOnce>
+              <div className="shadow-md shadow-gray-600 rounded-lg">
+                <img
+                  src={src}
+                  alt=""
+                  className="rounded-md duration-200 hover:scale-105"
+                />
+                <div className="flex items-center justify-center">
+                  <a
+                    href={codeLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="w-full text-center px-6 py-3 m-4 duration-200 hover:scale-105 hover:bg-gray-700 hover:text-white"
+                    onMouseEnter={() => setHoveredId(id)}
+                    onMouseLeave={() => setHoveredId(null)}
+                  >
+                    {hoveredId === id ? "Github" : "Code"}
+                  </a>
+                </div>
               </div>
-            </div>
+            </Fade>
           ))}
         </div>
       </div>
