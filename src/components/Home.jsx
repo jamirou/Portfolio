@@ -14,7 +14,7 @@ const Home = () => {
                         <div className="text-4xl sm:text-7xl font-bold text-white"
                              style={{ minHeight: '100px', display: 'flex', alignItems: 'center' }}>
                             <Typewriter
-                                words={["Hi, I'm Jamiro.", "A mobile developer."]}
+                                words={["Hi, I'm Jamiro.", "A software developer."]}
                                 loop={Infinity}
                                 cursor
                                 cursorStyle='_'
