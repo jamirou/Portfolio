@@ -53,10 +53,12 @@ const Portfolio = () => {
 
   const openModal = (project) => {
     setSelectedProject(project);
+    document.body.classList.add('no-scroll'); // Añadir clase para deshabilitar scroll
   };
 
   const closeModal = () => {
     setSelectedProject(null);
+    document.body.classList.remove('no-scroll'); // Remover clase para habilitar scroll
   };
 
   return (
