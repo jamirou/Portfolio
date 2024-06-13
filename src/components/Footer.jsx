@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faAndroid, faApple, faReact } from "@fortawesome/free-brands-svg-icons"; // Importa los iconos nuevos
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faAndroid, faApple, faReact } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   const [copyMessage, setCopyMessage] = useState("");
