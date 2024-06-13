@@ -40,7 +40,8 @@ const Portfolio = () => {
       id: 5,
       src: installNode,
       codeLink: "https://github.com/jamirou/TranslatorApp",
-      description: "Descripción del proyecto TranslatorApp",
+      description: "Translator App is an Android application that allows users to quickly and easily translate text between different languages. Built with Jetpack Compose and Kotlin, the app provides an intuitive and efficient user experience for text translation. Text Translation: Enter text and select the source and target languages for translation. Multiple Languages Supported: Includes English, Spanish, Italian, and French, Preference Storage: Saves language preferences using DataStore for a personalized user experience.",
+
     },
     {
       id: 6,
