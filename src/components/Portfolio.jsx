@@ -122,14 +122,22 @@ const Portfolio = () => {
                 <p className="font-playfair text-2xl font-medium mb-4">
                   {selectedProject.description}
                 </p>
-                <a
-                  href={selectedProject.codeLink}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="button-professional"
-                >
-                  Check repo
-                </a>
+                <div className="flex justify-center space-x-4">
+                  <a
+                    href={selectedProject.codeLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="button-professional"
+                  >
+                    Check repo
+                  </a>
+                  <button
+                    onClick={closeModal}
+                    className="button-professional bg-white hover:bg-gray-700"
+                  >
+                    Close
+                  </button>
+                </div>
               </div>
             </div>
           </div>
