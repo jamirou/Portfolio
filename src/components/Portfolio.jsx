@@ -13,7 +13,7 @@ const Portfolio = () => {
       id: 4,
       src: reactSmooth,
       codeLink: "https://github.com/jamirou/GuruDealer",
-      description: "Descripción del proyecto GuruDealer",
+      description: "GuruDealer is an open-source mobile application developed with Kotlin and Firebase, tailored for the programmer community. It provides an intuitive user experience with flexible registration options and a well-structured MVVM architecture. Additionally, it includes ad functionality for monetization. The entire project is free and accessible on GitHub, ready to be explored and improved by other developers.",
     },
     {
       id: 1,
@@ -112,7 +112,7 @@ const Portfolio = () => {
               <div className="relative">
                 <img src={selectedProject.src} alt="" className="w-full" />
               </div>
-              <div className="p-4">
+              <div className="p-4 max-h-60 overflow-y-auto">
                 <h2 className="text-2xl font-bold mb-4">{selectedProject.description}</h2>
                 <a
                   href={selectedProject.codeLink}
