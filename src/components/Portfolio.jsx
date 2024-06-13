@@ -47,7 +47,7 @@ const Portfolio = () => {
       id: 6,
       src: reactWeather,
       codeLink: "https://github.com/jamirou/InstagramApp",
-      description: "Descripción del proyecto InstagramApp",
+      description: "Instagram Clone is a sophisticated Android application developed using Kotlin and Jetpack Compose. This project features an efficient lazy grid implementation that ensures smooth scrolling and optimal performance when displaying numerous elements. The user interface design leverages the weight property in Compose to create a balanced and responsive layout. A standout feature is the sticky header, which remains fixed at the top of the screen as users scroll through the content. Additionally, the app integrates Coil for seamless image loading from the internet, providing a dynamic and visually engaging experience by displaying user profile pictures, posts, and other related images. This project demonstrates my expertise in modern Android development and my ability to create highly functional and visually appealing applications.",
     },
   ];
 
