@@ -34,7 +34,7 @@ const Portfolio = () => {
       id: 3,
       src: navbar,
       codeLink: "https://github.com/jamirou/WikiHero",
-      description: "Descripción del proyecto WikiHero",
+      description: "WikiHero is an Android application that allows users to search for and view information about superheroes using the SuperheroAPI. The app displays comprehensive details such as name, image, power stats, real name, publisher, race, gender, height, weight, and alter ego of the superheroes. Key features include: Superhero search by name, Detailed view of superhero information, including stats and personal details and User-friendly interface for an engaging experience.",
     },
     {
       id: 5,
