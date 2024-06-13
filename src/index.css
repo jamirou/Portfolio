@@ -12,5 +12,21 @@
   .font-playfair {
     font-family: 'Playfair Display', serif;
 }
+.button-professional {
+  background-color: #4a4a4a; 
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button-professional:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
 }
   

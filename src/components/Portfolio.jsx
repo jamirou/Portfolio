@@ -119,7 +119,7 @@ const Portfolio = () => {
                   href={selectedProject.codeLink}
                   target="_blank"
                   rel="noreferrer"
-                  className="text-blue-400 hover:underline"
+                  className="button-professional"
                 >
                   Check repo
                 </a>
