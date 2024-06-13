@@ -6,6 +6,7 @@ import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import { Fade } from 'react-awesome-reveal';
+import '../index.css'; 
 
 const Portfolio = () => {
   const portfolios = [
@@ -102,25 +103,25 @@ const Portfolio = () => {
 
         {selectedProject && (
           <div
-            className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center"
+            className="fixed inset-0 bg-gray-900 bg-opacity-90 flex justify-center items-center"
             onClick={closeModal}
           >
             <div
-              className="bg-white text-black rounded-lg overflow-hidden max-w-2xl w-full"
+              className="bg-gray-800 text-white rounded-lg overflow-hidden max-w-2xl w-full"
               onClick={(e) => e.stopPropagation()}
             >
               <div className="relative">
                 <img src={selectedProject.src} alt="" className="w-full" />
               </div>
-              <div className="p-4 max-h-60 overflow-y-auto">
-                <h2 className="text-2xl font-bold mb-4">{selectedProject.description}</h2>
+              <div className="p-4 max-h-80 overflow-y-auto">
+                <p className="font-playfair text-2xl font-medium mb-4">{selectedProject.description}</p>
                 <a
                   href={selectedProject.codeLink}
                   target="_blank"
                   rel="noreferrer"
-                  className="text-blue-500 hover:underline"
+                  className="text-blue-400 hover:underline"
                 >
-                  Ver en GitHub
+                  Check repo
                 </a>
               </div>
             </div>
