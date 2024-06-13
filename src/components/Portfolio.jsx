@@ -28,7 +28,7 @@ const Portfolio = () => {
       id: 2,
       src: reactParallax,
       codeLink: "https://github.com/jamirou/RetrofitGame",
-      description: "Descripción del proyecto RetrofitGame",
+      description: "Retrofit Games is an Android application built with Jetpack Compose and Kotlin. This project showcases my ability to integrate modern technologies and create a user-friendly app. The app fetches and displays video game information using an external API, offering a seamless and visually appealing experience. Key features include real-time data fetching with Retrofit, dependency injection with Dagger Hilt, and efficient image loading with Coil. This project highlights my skills in modern Android development and my passion for creating complete, polished applications.",
     },
     {
       id: 3,
