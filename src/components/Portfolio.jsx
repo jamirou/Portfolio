@@ -5,8 +5,8 @@ import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
-import { Fade } from 'react-awesome-reveal';
-import '../index.css'; 
+import { Fade } from "react-awesome-reveal";
+import "../index.css";
 
 const Portfolio = () => {
   const portfolios = [
@@ -14,13 +14,15 @@ const Portfolio = () => {
       id: 4,
       src: reactSmooth,
       codeLink: "https://github.com/jamirou/GuruDealer",
-      description: "GuruDealer is an open-source mobile application developed with Kotlin and Firebase, tailored for the programmer community. It provides an intuitive user experience with flexible registration options and a well-structured MVVM architecture. Additionally, it includes ad functionality for monetization. The entire project is free and accessible on GitHub, ready to be explored and improved by other developers.",
+      description:
+        "GuruDealer is an open-source mobile application developed with Kotlin and Firebase, tailored for the programmer community. It provides an intuitive user experience with flexible registration options and a well-structured MVVM architecture. Additionally, it includes ad functionality for monetization. The entire project is free and accessible on GitHub, ready to be explored and improved by other developers.",
     },
     {
       id: 1,
       src: arrayDestruct,
       codeLink: "https://github.com/jamirou/Personal_Schedule",
-      description: "Descripción del proyecto Personal_Schedule",
+      description:
+        "Personal Schedule is an Android app designed to help users manage their daily tasks efficiently. This project demonstrates my passion for creating and fully developing personal projects. It features real-time data synchronization with Firebase, secure user authentication, and a sleek, user-friendly interface. The app allows users to manage notes, contacts, and events seamlessly, providing a comprehensive tool for personal organization.",
     },
     {
       id: 2,
@@ -53,12 +55,12 @@ const Portfolio = () => {
 
   const openModal = (project) => {
     setSelectedProject(project);
-    document.body.classList.add('no-scroll'); // Añadir clase para deshabilitar scroll
+    document.body.classList.add("no-scroll"); // Añadir clase para deshabilitar scroll
   };
 
   const closeModal = () => {
     setSelectedProject(null);
-    document.body.classList.remove('no-scroll'); // Remover clase para habilitar scroll
+    document.body.classList.remove("no-scroll"); // Remover clase para habilitar scroll
   };
 
   return (
@@ -116,7 +118,9 @@ const Portfolio = () => {
                 <img src={selectedProject.src} alt="" className="w-full" />
               </div>
               <div className="p-4 max-h-80 overflow-y-auto">
-                <p className="font-playfair text-2xl font-medium mb-4">{selectedProject.description}</p>
+                <p className="font-playfair text-2xl font-medium mb-4">
+                  {selectedProject.description}
+                </p>
                 <a
                   href={selectedProject.codeLink}
                   target="_blank"
