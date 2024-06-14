@@ -41,7 +41,6 @@ const Portfolio = () => {
       src: installNode,
       codeLink: "https://github.com/jamirou/TranslatorApp",
       description: "Translator App is an Android application that allows users to quickly and easily translate text between different languages. Built with Jetpack Compose and Kotlin, the app provides an intuitive and efficient user experience for text translation. Text Translation: Enter text and select the source and target languages for translation. Multiple Languages Supported: Includes English, Spanish, Italian, and French, Preference Storage: Saves language preferences using DataStore for a personalized user experience.",
-
     },
     {
       id: 6,
@@ -53,15 +52,29 @@ const Portfolio = () => {
 
   const [hoveredId, setHoveredId] = useState(null);
   const [selectedProject, setSelectedProject] = useState(null);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-  const openModal = (project) => {
-    setSelectedProject(project);
-    document.body.classList.add("no-scroll"); // Añadir clase para deshabilitar scroll
+  const openModal = (index) => {
+    setSelectedProject(portfolios[index]);
+    setCurrentIndex(index);
+    document.body.classList.add("no-scroll");
   };
 
   const closeModal = () => {
     setSelectedProject(null);
-    document.body.classList.remove("no-scroll"); // Remover clase para habilitar scroll
+    document.body.classList.remove("no-scroll");
+  };
+
+  const prevProject = () => {
+    const newIndex = (currentIndex - 1 + portfolios.length) % portfolios.length;
+    setCurrentIndex(newIndex);
+    setSelectedProject(portfolios[newIndex]);
+  };
+
+  const nextProject = () => {
+    const newIndex = (currentIndex + 1) % portfolios.length;
+    setCurrentIndex(newIndex);
+    setSelectedProject(portfolios[newIndex]);
   };
 
   return (
@@ -80,14 +93,14 @@ const Portfolio = () => {
         </Fade>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 sm:px-0">
-          {portfolios.map((project) => (
+          {portfolios.map((project, index) => (
             <Fade key={project.id} direction="up" duration={2000} triggerOnce>
               <div className="shadow-md shadow-gray-600 rounded-lg">
                 <img
                   src={project.src}
                   alt=""
                   className="rounded-md duration-200 hover:scale-105 cursor-pointer"
-                  onClick={() => openModal(project)}
+                  onClick={() => openModal(index)}
                 />
                 <div className="flex items-center justify-center">
                   <a
@@ -112,11 +125,23 @@ const Portfolio = () => {
             onClick={closeModal}
           >
             <div
-              className="bg-gray-800 text-white rounded-lg overflow-hidden max-w-2xl w-full"
+              className="bg-gray-800 text-white rounded-lg overflow-hidden max-w-2xl w-full relative"
               onClick={(e) => e.stopPropagation()}
             >
               <div className="relative">
                 <img src={selectedProject.src} alt="" className="w-full" />
+                <button
+                  className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white bg-gray-600 bg-opacity-70 hover:bg-opacity-100 p-2 rounded-full hidden md:block"
+                  onClick={prevProject}
+                >
+                  ◀
+                </button>
+                <button
+                  className="absolute right-0 top-1/2 transform -translate-y-1/2 text-white bg-gray-600 bg-opacity-70 hover:bg-opacity-100 p-2 rounded-full hidden md:block"
+                  onClick={nextProject}
+                >
+                  ▶
+                </button>
               </div>
               <div className="p-4 max-h-80 overflow-y-auto">
                 <p className="font-playfair text-2xl font-medium mb-4">
