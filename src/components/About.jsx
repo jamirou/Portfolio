@@ -35,7 +35,7 @@ const About = () => {
             I am always looking for new challenges that allow me to expand my
             skills. My main focus is on the development of Android and iOS
             applications, but my curiosity and dedication lead me to constantly
-            explore new tools and programming languages. In addition to my daily
+            explore new areas, tools and programming languages. In addition to my daily
             work, I love contributing to the world of open source. I'm a big
             believer in collaboration and knowledge sharing, so if you have any
             exciting ideas or want to show me. I am always open to new opportunities and collaborations.
