@@ -152,7 +152,7 @@ const Portfolio = () => {
                 ></div>
               </div>
               <div className="p-4 max-h-80 overflow-y-auto">
-                <p className="text-lg font-bold text-yellow-400 mb-2">
+                <p className="text-lg font-bold text-gray-400 mb-2">
                   {currentIndex + 1} / {portfolios.length}
                 </p>
                 <p className="font-playfair text-2xl font-medium mb-4">
