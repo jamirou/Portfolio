@@ -147,7 +147,7 @@ const Portfolio = () => {
                 <p className="font-playfair text-2xl font-medium mb-4">
                   {selectedProject.description}
                 </p>
-                <div className="flex justify-center space-x-4">
+                <div className="flex justify-start space-x-4">
                   <a
                     href={selectedProject.codeLink}
                     target="_blank"
