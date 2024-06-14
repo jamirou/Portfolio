@@ -8,6 +8,8 @@ import git from "../assets/git.png";
 import css from "../assets/css.png";
 import github from "../assets/github.png";
 import sqlite from "../assets/sqlite.png";
+import react from "../assets/react.png";
+import spring from "../assets/spring.png";
 import flutter from "../assets/flutter.png";
 import dart from "../assets/dart.png";
 import { Fade } from 'react-awesome-reveal';
@@ -43,6 +45,18 @@ const Experience = () => {
       src: sqlite,
       title: "SQLite",
       style: "shadow-sky-400",
+    },
+    {
+      id: 11,
+      src: react,
+      title: "React",
+      style: "shadow-red-400",
+    },
+    {
+      id: 12,
+      src: spring,
+      title: "Spring",
+      style: "shadow-green-400",
     },
     {
       id: 6,
