@@ -142,6 +142,14 @@ const Portfolio = () => {
                 >
                   ▶
                 </button>
+                <div
+                  className="clickable-area-left"
+                  onClick={prevProject}
+                ></div>
+                <div
+                  className="clickable-area-right"
+                  onClick={nextProject}
+                ></div>
               </div>
               <div className="p-4 max-h-80 overflow-y-auto">
                 <p className="font-playfair text-2xl font-medium mb-4">

@@ -31,4 +31,20 @@
   .no-scroll {
     overflow: hidden;
   }
+  .clickable-area-left,
+  .clickable-area-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    cursor: pointer;
+  }
+
+  .clickable-area-left {
+    left: 0;
+  }
+
+  .clickable-area-right {
+    right: 0;
+  }
 }
