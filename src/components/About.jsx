@@ -6,7 +6,7 @@ import { Fade } from 'react-awesome-reveal';
 const About = () => {
   return (
     <div
-      name="about"
+      name="descripción"
       className="w-full h-full bg-gradient-to-b from-gray-800 to-black text-white py-8"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
