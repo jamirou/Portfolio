@@ -92,16 +92,16 @@ const Experience = () => {
 
   return (
     <div
-      name="experience"
+      name="tecnologías"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-full py-8"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <Fade direction="down" duration={2000} triggerOnce>
           <div>
             <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-              Experience
+              Tecnologías
             </p>
-            <p className="py-6">These are some of the technologies I’ve worked with.</p>
+            <p className="py-6">Algunas de las tecnologías con las que he trabajado.</p>
           </div>
         </Fade>
 
