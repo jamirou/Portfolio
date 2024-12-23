@@ -20,10 +20,7 @@ const About = () => {
 
         <Fade direction="up" duration={2000} triggerOnce>
           <p className="text-xl mt-8">
-            Hello again! I am Jamiro, a mobile developer with a broad range of
-            knowledge and an insatiable desire to learn more every day. I am
-            passionate about creating applications that not only work well but
-            also provide an exceptional user experience.
+          La tecnología no es solo mi trabajo, es mi forma de entender y transformar el mundo. Desde líneas de código hasta soluciones completas, mi enfoque está en crear impacto real a través de innovación y dedicación.
           </p>
         </Fade>
 
