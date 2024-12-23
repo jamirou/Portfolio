@@ -13,7 +13,7 @@ const About = () => {
         <Fade direction="down" duration={2000} triggerOnce>
           <div className="pb-8">
             <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-              About
+              Sobre mi
             </p>
           </div>
         </Fade>
