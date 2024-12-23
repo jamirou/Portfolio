@@ -88,7 +88,7 @@ const Portfolio = () => {
             <p className="text-4xl font-bold inline border-b-4 border-gray-500">
               Portfolio
             </p>
-            <p className="py-6">Check out some of my last work right here</p>
+            <p className="py-6">Algunos los proyectos en los que he trabajado recientemente</p>
           </div>
         </Fade>
 
@@ -165,13 +165,13 @@ const Portfolio = () => {
                     rel="noreferrer"
                     className="button-professional"
                   >
-                    Check repo
+                    Repositorio
                   </a>
                   <button
                     onClick={closeModal}
                     className="button-professional bg-white hover:bg-gray-700"
                   >
-                    Close
+                    Cerrar
                   </button>
                 </div>
               </div>
