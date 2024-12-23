@@ -17,7 +17,7 @@ const About = () => {
             </p>
           </div>
         </Fade>
-        
+
         <Fade direction="up" duration={2000} triggerOnce>
           <p className="text-xl mt-8">
             Hello again! I am Jamiro, a mobile developer with a broad range of
@@ -31,16 +31,7 @@ const About = () => {
 
         <Fade direction="up" duration={2000} triggerOnce>
           <p className="text-xl">
-            Throughout my career, I have worked with a variety of technologies and
-            I am always looking for new challenges that allow me to expand my
-            skills. My main focus is on the development of Android and iOS
-            applications, but my curiosity and dedication lead me to constantly
-            explore new areas, tools and programming languages. In addition to my daily
-            work, I love contributing to the world of open source. I'm a big
-            believer in collaboration and knowledge sharing, so if you have any
-            exciting ideas or want to show me. I am always open to new opportunities and collaborations.
-            If you're looking for someone with a solid technical foundation and a
-            proactive attitude, <Link to="contact" smooth duration={500} className="text-green-500 underline cursor-pointer">let's talk!</Link>
+            A lo largo de mi trayectoria, he explorado diversas tecnologías y siempre busco nuevos retos que amplíen mis habilidades. Aunque tengo experiencia en distintas áreas del desarrollo, lo que realmente me impulsa es la posibilidad de aprender y colaborar. Creo firmemente en el poder de la comunidad y el conocimiento compartido. Si tienes una idea interesante o un proyecto que merezca atención, <Link to="contact" smooth duration={500} className="text-green-500 underline cursor-pointer">let's talk!</Link>
           </p>
         </Fade>
 
