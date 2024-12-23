@@ -14,7 +14,7 @@ const Home = () => {
                         <div className="text-4xl sm:text-7xl font-bold text-white"
                              style={{ minHeight: '100px', display: 'flex', alignItems: 'center' }}>
                             <Typewriter
-                                words={["Hi, I'm Jamiro.", "A software developer."]}
+                                words={["Hola, soy Jamiro.", "desarrollador de software."]}
                                 loop={Infinity}
                                 cursor
                                 cursorStyle='_'
@@ -27,7 +27,7 @@ const Home = () => {
                     <div className="mt-4 text-center">
                         <Fade direction="up" duration={2000} triggerOnce>
                             <p className="text-gray-500 py-4 max-w-md">
-                                Crafting cool mobile apps with a passion for innovation.
+                            Escribo código, arreglo bugs (a veces los creo), y siempre busco maneras de hacer las cosas más interesantes.
                             </p>
                         </Fade>
                     </div>
