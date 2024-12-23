@@ -28,7 +28,7 @@ const About = () => {
 
         <Fade direction="up" duration={2000} triggerOnce>
           <p className="text-xl">
-            A lo largo de mi trayectoria, he explorado diversas tecnologías y siempre busco nuevos retos que amplíen mis habilidades. Aunque tengo experiencia en distintas áreas del desarrollo, lo que realmente me impulsa es la posibilidad de aprender y colaborar. Creo firmemente en el poder de la comunidad y el conocimiento compartido. Si tienes una idea interesante o un proyecto que merezca atención, <Link to="contact" smooth duration={500} className="text-green-500 underline cursor-pointer">let's talk!</Link>
+            A lo largo de mi trayectoria, he explorado diversas tecnologías y siempre busco nuevos retos que amplíen mis habilidades. Aunque tengo experiencia en distintas áreas del desarrollo, lo que realmente me impulsa es la posibilidad de aprender y colaborar. Creo firmemente en el poder de la comunidad y el conocimiento compartido. Si tienes una idea interesante o un proyecto que merezca atención, <Link to="contact" smooth duration={500} className="text-green-500 underline cursor-pointer">Hablemos!</Link>
           </p>
         </Fade>
 

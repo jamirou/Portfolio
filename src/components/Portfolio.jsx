@@ -15,38 +15,38 @@ const Portfolio = () => {
       src: reactSmooth,
       codeLink: "https://github.com/jamirou/GuruDealer",
       description:
-        "GuruDealer is an open-source mobile application developed with Kotlin and Firebase, tailored for the programmer community. It provides an intuitive user experience with flexible registration options and a well-structured MVVM architecture. Additionally, it includes ad functionality for monetization. The entire project is free and accessible on GitHub, ready to be explored and improved by other developers.",
+        "GuruDealer es una aplicación móvil de código abierto desarrollada con Kotlin y Firebase, diseñada para la comunidad de programadores. Ofrece una experiencia de usuario intuitiva con opciones de registro flexibles y una arquitectura bien estructurada basada en MVVM. Además, incluye funcionalidad de anuncios para monetización. Todo el proyecto es gratuito y accesible en GitHub, listo para ser explorado y mejorado por otros desarrolladores.",
     },
     {
       id: 1,
       src: arrayDestruct,
       codeLink: "https://github.com/jamirou/Personal_Schedule",
       description:
-        "Personal Schedule is an Android app designed to help users manage their daily tasks efficiently. This project demonstrates my passion for creating and fully developing personal projects. It features real-time data synchronization with Firebase, secure user authentication, and a sleek, user-friendly interface. The app allows users to manage notes, contacts, and events seamlessly, providing a comprehensive tool for personal organization.",
+        "Personal Schedule es una aplicación Android diseñada para ayudar a los usuarios a gestionar sus tareas diarias de manera eficiente. Este proyecto demuestra mi pasión por crear y desarrollar proyectos personales de manera completa. Cuenta con sincronización de datos en tiempo real con Firebase, autenticación segura de usuarios y una interfaz elegante y fácil de usar. La aplicación permite a los usuarios gestionar notas, contactos y eventos de manera fluida, proporcionando una herramienta integral para la organización personal.",
     },
     {
       id: 2,
       src: reactParallax,
       codeLink: "https://github.com/jamirou/RetrofitGame",
-      description: "Retrofit Games is an Android application built with Jetpack Compose and Kotlin. This project showcases my ability to integrate modern technologies and create a user-friendly app. The app fetches and displays video game information using an external API, offering a seamless and visually appealing experience. Key features include real-time data fetching with Retrofit, dependency injection with Dagger Hilt, and efficient image loading with Coil. This project highlights my skills in modern Android development and my passion for creating complete, polished applications.",
+      description: "Retrofit Games es una aplicación Android construida con Jetpack Compose y Kotlin. Este proyecto demuestra mi capacidad para integrar tecnologías modernas y crear una aplicación fácil de usar. La app obtiene y muestra información sobre videojuegos usando una API externa, ofreciendo una experiencia fluida y visualmente atractiva. Entre las características clave se incluyen la obtención de datos en tiempo real con Retrofit, inyección de dependencias con Dagger Hilt y carga eficiente de imágenes con Coil. Este proyecto resalta mis habilidades en desarrollo Android moderno y mi pasión por crear aplicaciones completas y pulidas.",
     },
     {
       id: 3,
       src: navbar,
       codeLink: "https://github.com/jamirou/WikiHero",
-      description: "WikiHero is an Android application that allows users to search for and view information about superheroes using the SuperheroAPI. The app displays comprehensive details such as name, image, power stats, real name, publisher, race, gender, height, weight, and alter ego of the superheroes. Key features include: Superhero search by name, Detailed view of superhero information, including stats and personal details and User-friendly interface for an engaging experience.",
+      description: "WikiHero es una aplicación Android que permite a los usuarios buscar y ver información sobre superhéroes utilizando la SuperheroAPI. La app muestra detalles completos como nombre, imagen, estadísticas de poder, nombre real, editor, raza, género, altura, peso y alter ego de los superhéroes. Las características clave incluyen: Búsqueda de superhéroes por nombre, Vista detallada de la información del superhéroe, incluyendo estadísticas y datos personales, e Interfaz amigable para una experiencia atractiva.",
     },
     {
       id: 5,
       src: installNode,
       codeLink: "https://github.com/jamirou/TranslatorApp",
-      description: "Translator App is an Android application that allows users to quickly and easily translate text between different languages. Built with Jetpack Compose and Kotlin, the app provides an intuitive and efficient user experience for text translation. Text Translation: Enter text and select the source and target languages for translation. Multiple Languages Supported: Includes English, Spanish, Italian, and French, Preference Storage: Saves language preferences using DataStore for a personalized user experience.",
+      description: "Translator App es una aplicación Android que permite a los usuarios traducir texto de manera rápida y sencilla entre diferentes idiomas. Construida con Jetpack Compose y Kotlin, la app ofrece una experiencia de usuario intuitiva y eficiente para la traducción de texto. Traducción de texto: Ingresa el texto y selecciona los idiomas de origen y destino para traducir. Soporte para múltiples idiomas: Incluye inglés, español, italiano y francés. Almacenamiento de preferencias: Guarda las preferencias de idioma utilizando DataStore para una experiencia personalizada.",
     },
     {
       id: 6,
       src: reactWeather,
       codeLink: "https://github.com/jamirou/InstagramApp",
-      description: "Instagram Clone is a sophisticated Android application developed using Kotlin and Jetpack Compose. This project features an efficient lazy grid implementation that ensures smooth scrolling and optimal performance when displaying numerous elements. The user interface design leverages the weight property in Compose to create a balanced and responsive layout. A standout feature is the sticky header, which remains fixed at the top of the screen as users scroll through the content. Additionally, the app integrates Coil for seamless image loading from the internet, providing a dynamic and visually engaging experience by displaying user profile pictures, posts, and other related images. This project demonstrates my expertise in modern Android development and my ability to create highly functional and visually appealing applications.",
+      description: "Instagram Clone es una sofisticada aplicación Android desarrollada con Kotlin y Jetpack Compose. Este proyecto presenta una implementación eficiente de una cuadrícula perezosa que garantiza un desplazamiento suave y un rendimiento óptimo al mostrar numerosos elementos. El diseño de la interfaz de usuario utiliza la propiedad de peso en Compose para crear un diseño equilibrado y sensible. Una característica destacada es el encabezado fijo, que permanece en la parte superior de la pantalla mientras los usuarios navegan por el contenido. Además, la app integra Coil para una carga de imágenes fluida desde internet, proporcionando una experiencia dinámica y visualmente atractiva al mostrar fotos de perfil de usuarios, publicaciones y otras imágenes relacionadas. Este proyecto demuestra mi experiencia en desarrollo Android moderno y mi capacidad para crear aplicaciones altamente funcionales y visualmente atractivas",
     },
   ];
 
